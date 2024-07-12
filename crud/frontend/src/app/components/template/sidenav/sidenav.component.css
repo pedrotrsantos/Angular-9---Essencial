@@ -1,0 +1,23 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+mat-sidenav {
+  width: 250px;
+  background-color: #4c4cc7;
+  color: white; /* Cor do texto do sidenav */
+}
+
+mat-list-item span {
+  color: white;
+}
+
+mat-list-item mat-icon {
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}

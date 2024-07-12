@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+}
+
+.logo-header {
+  max-height: 32px;
+}
+
+.header a {
+  text-decoration: none;
+  color: black;
+}
+
+.info-header {
+  padding-left: 24px;
+  display: flex;
+  align-items: center;
+}
+.info-header mat-icon {
+  padding-right: 8px;
+}

@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nome": "Caneta BIC Preta",
+      "preco": 5.89
+    },
+    {
+      "id": 2,
+      "nome": "Notebook Mac Pro",
+      "preco": 10000
+    },
+    {
+      "id": 3,
+      "nome": "Samsung S20",
+      "preco": 5000
+    },
+    {
+      "id": 4,
+      "nome": "Mouse Damoshark",
+      "preco": 200
+    },
+    {
+      "id": 5,
+      "nome": "Monitor LG 24",
+      "preco": 600
+    }
+  ]
+}

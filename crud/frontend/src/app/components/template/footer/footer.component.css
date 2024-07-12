@@ -1,0 +1,18 @@
+.footer {
+  position: fixed;
+  bottom: 0;
+  border-top: 2px solid #cbcbcb;
+}
+
+.footer span {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.footer mat-icon {
+  margin-left: 4px;
+  margin-right: 4px;
+  color: #eb1f1f;
+}
