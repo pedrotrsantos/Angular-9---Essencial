@@ -1,0 +1,19 @@
+<mat-card class="card">
+    <mat-card-title class="title">Novo Produto</mat-card-title>
+    <form class="form" id="form">
+        <mat-form-field class="input">
+            <mat-label>Nome</mat-label>
+            <input matInput placeholder="Digite um Produto" [(ngModel)]="product.name" name="name" />
+            <mat-error></mat-error>
+        </mat-form-field>
+        <mat-form-field class="input">
+            <mat-label>Preço (R$)</mat-label>
+            <input matInput type="number" placeholder="0,0" [(ngModel)]="product.price" name="price" />
+            <mat-error></mat-error>
+        </mat-form-field>
+    </form>
+    <div class="buttons-area">
+        <button mat-flat-button (click)="createProduct()">Salvar</button>
+        <button mat-button class="button" (click)="cancel()">Cancelar</button>
+    </div>
+</mat-card>

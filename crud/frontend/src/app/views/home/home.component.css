@@ -1,0 +1,7 @@
+.card {
+  padding: 16px;
+}
+
+mat-card-title {
+  font-weight: 600;
+}

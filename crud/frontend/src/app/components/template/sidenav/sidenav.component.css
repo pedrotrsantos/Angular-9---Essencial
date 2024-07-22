@@ -5,7 +5,7 @@
 }
 
 mat-sidenav {
-  width: 250px;
+  width: 200px;
   background-color: #4c4cc7;
   color: white; /* Cor do texto do sidenav */
 }
@@ -20,4 +20,5 @@ mat-list-item mat-icon {
 
 .content {
   padding: 16px;
+  background-color: white;
 }
