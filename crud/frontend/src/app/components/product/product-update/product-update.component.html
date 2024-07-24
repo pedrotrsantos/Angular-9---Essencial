@@ -1,5 +1,5 @@
 <mat-card class="card">
-    <mat-card-title class="title">Novo Produto</mat-card-title>
+    <mat-card-title class="title">Atualizar Produto</mat-card-title>
     <form class="form" id="form">
         <mat-form-field class="input">
             <mat-label>Nome</mat-label>
@@ -12,7 +12,7 @@
             <mat-error></mat-error>
         </mat-form-field>
         <div class="buttons-area">
-            <button mat-flat-button (click)="createProduct()" type="submit">Salvar</button>
+            <button mat-flat-button (click)="updateProduct()" type="submit" class="buttonUpdate">Atualizar</button>
             <button mat-button class="button" (click)="cancel()">Cancelar</button>
         </div>
     </form>

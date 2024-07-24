@@ -4,9 +4,18 @@ html,
 body {
   height: 100%;
   box-sizing: border-box;
-  overflow: hidden;
 }
 body {
   margin: 0;
   font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.msg-sucess{
+  --mdc-snackbar-container-color: #008900;
+  color: #ffffff;
+}
+
+.msg-error{
+  --mdc-snackbar-container-color: #d82a2a;
+  color: #ffffff;
 }

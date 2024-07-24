@@ -2,9 +2,9 @@
     <span>
         <img src="assets/img/logo.png" alt="logo" class="logo-header" routerLink="/">
     </span>
-    <a href=""> <span class="info-header">
-            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>
-            <span>Início</span>
+    <a routerLink="{{ routeUrl }}"> <span class="info-header">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="{{ icon }}"></mat-icon>
+            <span>{{ title }}</span>
         </span>
     </a>
 </mat-toolbar>

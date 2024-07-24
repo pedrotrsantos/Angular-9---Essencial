@@ -1,0 +1,21 @@
+.form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.button {
+  margin-left: 8px;
+}
+
+.card {
+  padding: 16px;
+}
+
+.title {
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.buttonUpdate{
+  background-color: #008900;;
+}
